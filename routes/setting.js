@@ -1,8 +1,8 @@
 const express = require("express");
-const setting = require("../controller/setting");
+const defalut = require("../controller/Defalut.js");
 
 
 const router = express.Router();
-router.post("/createSetting", setting.createSetting)
+router.post("/createSetting", defalut.createSetting)
 
 module.exports = router;

@@ -1,5 +1,5 @@
 const express = require('express');
-const Setting = require('../model/setting');
+const Setting = require('../model/Setting');
 
 
 // Create Setting api
