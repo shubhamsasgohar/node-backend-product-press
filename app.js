@@ -7,10 +7,10 @@ mongoose.set("strictQuery", false);
 app.use(express.json());
 
 // Define Routes
-const settingRoutes = require('./routes/settingRoutes');
+const setting = require('./routes/setting');
 
 // Define api path
-app.use("/api/v1/setting", settingRoutes)
+app.use("/api/v1/setting", setting)
 
 
 app.all("*", (req, res, next) => {

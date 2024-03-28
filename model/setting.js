@@ -5,10 +5,10 @@ const settingSchema = new mongoose.Schema(
         name: {
             type: String,
         },
-        shopName: {
+        shop_name: {
             type: String,
         },
-        shopId: {
+        shop_id: {
             type: Number,
         },
         access_token: {
